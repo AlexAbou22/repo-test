@@ -1,1 +1,12 @@
 # repo-test
+
+## Démarrage
+
+Application HTTP minimale, sans dépendance (Node >= 18).
+
+    npm start                      # http://localhost:3000 (variable PORT pour changer)
+    curl localhost:3000/status     # 200 {"status":"ok"}
+
+## Tests
+
+    npm test
